@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header de la página */
+header{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(145,145,145,1) 82%);
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    width: 100%;
+    border-bottom: solid black 2px;
+}
+
+/* Bloque del header que contiene el logo del portfolio */
+header .logo{
+    background-color: blue;
+    width: 13%;
+    display: flex;
+    justify-content: start;
+}
+
+/* Bloque del header que contiene los diferentes enlaces a las distintas secciones del portfolio */
+header .links{
+    background-color: chartreuse;
+    width: 13%;
+    margin: 0 auto;
+}
