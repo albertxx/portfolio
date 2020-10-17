@@ -15,15 +15,47 @@ header{
 
 /* Bloque del header que contiene el logo del portfolio */
 header .logo{
-    background-color: blue;
-    width: 13%;
     display: flex;
     justify-content: start;
 }
 
-/* Bloque del header que contiene los diferentes enlaces a las distintas secciones del portfolio */
-header .links{
-    background-color: chartreuse;
-    width: 13%;
-    margin: 0 auto;
+/* Imagen del logo */
+header .logo img{
+    width: 15%;
+}
+
+/* Bloque que contendra todo el contenido del porfolio */
+.contenido{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bloque que contendra la parte de los conocimientos informáticos */
+.contenido .bloqueContenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4%;
+    background-color: blue;
+    margin-bottom: 0;
+}
+
+/* Bloque del texto en los conocimientos */
+.contenido .bloqueContenido .textoContenido{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 70%;
+    height: 100%;
+}
+
+/* Título del bloque de los conocimientos */
+.contenido .bloqueContenido .textoContenido .titulo{
+    text-align: center;
+}
+
+.contenido .bloqueContenido .textoContenido .izquierda{
+    text-align: right;
+    margin-right: 3%;
 }
